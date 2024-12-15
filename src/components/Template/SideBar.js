@@ -9,12 +9,12 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.png`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>HOSSEIN ZAREI</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:hosseiny625@gmail.com">hosseiny625@gmail.com</a>
         </p>
       </header>
     </section>
@@ -22,13 +22,11 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&rsquo;m Hossein. I&rsquo;m a software developer who loves building modern,
+        user-friendly apps and sharing my knowledge with others.<br />
+        Whether it&rsquo;s creating mobile apps,
+        contributing to open-source projects, or writing about tech,
+        I&rsquo;m always looking for ways to learn and grow.
       </p>
       <ul className="actions">
         <li>
@@ -48,7 +46,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Hossein Zarei <Link to="/">hosseinzi.com</Link>.
       </p>
     </section>
   </section>
