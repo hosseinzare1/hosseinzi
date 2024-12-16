@@ -26,7 +26,7 @@ const sections = {
 const Resume = () => (
   <Main
     title="Resume"
-    description="Hossein Zarei's Resume. Mobile Application Developer"
+    description="Hossein Zarei's Resume, Mobile Application Developer"
   >
     <article className="post" id="resume">
       <header>
